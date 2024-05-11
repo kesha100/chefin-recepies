@@ -36,10 +36,10 @@ class SearchListView(ListView):
   def get_queryset(self):
     queryset = super().get_queryset()
     q = self.request.GET.get('q')
-    queryset = queryset.filter(Q(title__icontains=q) | Q(text__icontains=q))
-
+    if q:
+      q = q.lower()  # Convert the search query to lowercase
+      queryset = queryset.filter(Q(title__icontains=q) | Q(text__icontains=q))
     return queryset
-
 
 def wishes(request):
   return render(request, 'recipes/wishes.html', {'title': 'Thank you for this Incubator!'})

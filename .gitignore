@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/

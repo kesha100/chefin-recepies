@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Style the card container */
+.card {
+  width: 18rem; /* Set a fixed width for the card */
+  height: 100%; /* Ensure all cards have the same height */
+  border: 200px solid #000; /* Add a 2px solid black border around the card */
+  border-radius: 100px; /* Add rounded corners to the card */
+  overflow: hidden; /* Hide any content that exceeds the card dimensions */
+}
+
+/* Style the image inside the card */
+.card-img-top {
+  width: 100%; /* Make the image fill the entire width of its container */
+  height: 100%; /* Make the image fill the entire height of its container */
+  object-fit: cover; /* Ensure the image covers the entire area of its container */
+  border-radius: 6px; /* Add rounded corners to the image */
+}

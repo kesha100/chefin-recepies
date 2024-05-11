@@ -13,7 +13,6 @@ CHEFIN is a django web app that allow user to search recipes by ingredients.
 
 ## Getting started
 
-Dillinger uses a number of open source projects to work properly:
 
 
 - [Built With](https://github.com/kesha100/chefin/#Built-With)
@@ -23,14 +22,9 @@ Dillinger uses a number of open source projects to work properly:
 - [Author](https://github.com/kesha100/chefin/#Author)
 
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
 
 ```sh
 git clone https://github.com/kesha100/chefin.git
@@ -75,11 +69,11 @@ Import the models
 
 ### Demo
 
-- [Video Recording Demo]](https://nodejs.org/)
+- [Video Recording Demo]](https://youtu.be/2jdSeGbUOOk)
 - [Demo Images]](https://github.com/kesha100/chefin/tree/main/DemoImages/)
 
 
-### Authro
+### Author
 - [Aruuke linkedin] (https://www.linkedin.com/in/aruuke-atabekova-b97757274/)
 
 

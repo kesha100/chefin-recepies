@@ -7,7 +7,7 @@ from django.utils import timezone
 class Recipe(models.Model):
     title = models.CharField(max_length=75)
     text = models.TextField()
-    image = models.ImageField(upload_to='recipe/')
+    image = models.ImageField()
     created_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):

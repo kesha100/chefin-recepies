@@ -94,7 +94,7 @@ DATABASES = {
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a/chefin_db")
+DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a.singapore-postgres.render.com/chefin_db")
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -129,9 +129,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/staticfiles/'
-
+STATIC_URL = '/static/'
+STATICFILES = [os.path.join(BASE_DIR, 'static/')]
+STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
 
 
 MEDIA_URL = '/media/'

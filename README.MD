@@ -4,6 +4,7 @@
 
 CHEFIN is a django web app that allow user to search recipes by ingredients. 
 ✨ALso look at the home page and pick the dish and cook it!✨
+The website on render deployed: https://chefin-1.onrender.com/
 
 ## Built-With
 

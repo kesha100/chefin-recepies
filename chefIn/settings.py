@@ -90,11 +90,12 @@ WSGI_APPLICATION = 'chefIn.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join('BASE_DIR' , 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a.singapore-postgres.render.com/chefin_db")
+
+# DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a.singapore-postgres.render.com/chefin_db")
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

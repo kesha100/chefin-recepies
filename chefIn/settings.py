@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-c3+e=yy=4u)kxd=ifths0a%&ijiipz-$)kce9qs!!pn$n64bdc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.onrender.com']
 
 
 # Application definition
@@ -94,7 +94,7 @@ DATABASES = {
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a.singapore-postgres.render.com/chefin_db")
+DATABASES["default"] = dj_database_url.parse("postgres://aruuke:VGGhZSpnirJqbpHplURbx0gdbBBJI3gd@dpg-covptsi1hbls73dv74lg-a/chefin_db")
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

@@ -70,9 +70,8 @@ TEMPLATES = [
 ]
 
 
-# WSGI_APPLICATION = 'api.wsgi.app'
-WSGI_APPLICATION = 'chefIn.wsgi.application'
-
+WSGI_APPLICATION = 'api.wsgi.app'
+# WSGI_APPLICATION = 'chefIn.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 

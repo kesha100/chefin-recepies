@@ -18,9 +18,8 @@ The website on render deployed: https://chefin-1.onrender.com/
 
 - [Built With](https://github.com/kesha100/chefin/#Built-With)
 - [Getting started](https://github.com/kesha100/chefin/#Getting-started)
-- [Database](https://github.com/kesha100/chefin/#Database)
 - [Demo](https://github.com/kesha100/chefin/#Demo)
-- [Author](https://github.com/kesha100/chefin/#Author)
+- [Author](https://www.linkedin.com/in/aruuke-atabekova-b97757274/)
 - [Process of Design and Development] (https://github.com/kesha100/chefin/#Process of Design and Development)
 
 
@@ -72,25 +71,8 @@ Import the models
 ### Demo
 
 - [Video Recording Demo]](https://youtu.be/2jdSeGbUOOk)
-- [Demo Images]](https://github.com/kesha100/chefin/tree/main/DemoImages/)
 
 
 ### Author
 - [Aruuke linkedin] (https://www.linkedin.com/in/aruuke-atabekova-b97757274/)
-
-### Process of Design and Development
-The process of designing and developing CHEFIN involved the following key steps:
-
-Requirement Gathering: Understanding the needs of the target users and defining the features and functionalities required for the recipe web app.
-
-Wireframing and UI Design: Creating wireframes and designing the user interface (UI) to ensure an intuitive and visually appealing user experience. Bootstrap was used as an open-source toolkit for frontend development, providing a responsive design and pre-styled components.
-
-Backend Development: Utilizing the Django web framework for backend development, including defining models, views, and templates. Django's built-in features, such as authentication, admin interface, and ORM, were leveraged to streamline development.
-
-Frontend Integration: Integrating the frontend UI with the Django backend, ensuring seamless communication between the client-side and server-side components of the application.
-
-Testing and Debugging: Thorough testing of the application to identify and resolve any bugs or issues. Both manual testing and automated testing methodologies were employed to ensure the reliability and stability of the application.
-
-
-
 
